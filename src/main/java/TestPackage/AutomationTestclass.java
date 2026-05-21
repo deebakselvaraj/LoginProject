@@ -12,6 +12,7 @@ public class AutomationTestclass {
 		    WebDriver driver = new ChromeDriver();
 	        driver.manage().window().maximize();
 	        driver.get("https://practicetestautomation.com/practice-test-login/");
+	        System.out.print("Done");
 	}
 
 }
